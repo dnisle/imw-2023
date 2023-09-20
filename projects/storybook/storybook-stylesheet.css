@@ -1,0 +1,117 @@
+body{
+    color: white;
+}
+
+
+hgroup{  
+    padding-top: 200px;
+    padding-bottom: 800px;
+    margin-bottom: 200px;
+    vertical-align: middle;
+    background: -webkit-linear-gradient(#A8E0FF, #48BDFF); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* i tried the gradient code but it's not working */
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+h2{
+    font-family: 'Courier New', Courier, monospace;}
+/* i don't know how to add new font yet so i used avaliable fonts */
+
+h3{
+    background-color: #080B24;
+    color: white;
+}
+
+.center {
+    text-align: center;
+  }
+
+#head {
+    font-size: 3em;
+}
+
+#sub {
+    font-size: 0.8em;
+}
+
+#rectangle{
+    height: 500px;
+    width: 400px;
+    float: right;
+    margin-right: 100px;
+    position:relative;
+    background-color: #615D74;
+    z-index: 0;
+}
+
+#moon{
+    position:relative;
+    z-index: 5;
+    top: 220px;
+}
+
+.circle{
+    height: 150px;
+    width: 150px;
+    background-color: #FFF7CF;
+    border-radius: 50%;
+    margin-left: 80px;
+    box-shadow: 0px 0px 28px #FFF7CF;
+  
+    }
+
+/* i figured that doing the original is a bit hard so i changed to regtangle windows with curved border */
+.square {
+    display: inline-block;
+    position: relative;
+    margin-top: 27px;
+    margin-left:30px;
+    width: 90px; 
+    height: 110px; 
+    border-radius: 25px;
+}
+
+img {
+    display: block;
+    width: 100px;
+    height: 200px;
+  }
+
+
+#brown{background-color: #2F2517; }
+
+#yellow{
+    background-color: #FFEC87;
+    box-shadow: 0px 0px 28px #fffee0;}
+
+h4{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    position:relative;
+    top: 180px;
+    margin-left: 350px;
+    z-index: 10;
+}
+
+h5{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    position:relative;
+    top: 180px;
+    margin-left: 350px;
+    z-index: 10;
+}
+
+h6{ 
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    position:relative;
+    top: 180px;
+    margin-left: 350px;
+    z-index: 10;
+}
+
+

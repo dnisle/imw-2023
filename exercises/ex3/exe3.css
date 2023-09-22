@@ -1,0 +1,77 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightgoldenrodyellow;
+    color: rgb(253, 171, 183);
+}
+
+/* font-face */
+.grow{
+    font-size: 50px;
+    font-family: 'Bespoke', sans-serif;
+    transition: font-size 250ms ease-in-out;
+    /* somehow after my font grown bigger, there'are some glitching strikes above it comes out of nowhere... */
+}
+
+@font-face {
+    font-family: 'Bespoke';
+    src: url('SELF-FONT/Bespoke-JlGSXURF3v.eot');
+    src: url('SELF-FONT/Bespoke-JlGSXURF3v.eot?#iefix') format('embedded-opentype'),
+       url('SELF-FONT/Bespoke-JlGSXURF3v.woff') format('woff'),
+       url('SELF-FONT/Bespoke-JlGSXURF3v.ttf') format('truetype'),
+       url('SELF-FONT/Bespoke-JlGSXURF3v.svg#Bespoke-JlGSXURF3v') format('svg');
+}
+
+.grow:hover{
+    font-size: 150px;
+}
+
+/* google font */
+.shake{
+    font-size: 100px;
+    font-family: 'Amatic SC', cursive;
+}
+.shake:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake{
+    0%{ transform:  rotate(0deg);}
+    5%{ transform:  rotate(-5deg);}
+    10%{ transform:  rotate(-10deg);}
+    15%{ transform: rotate(-15deg);}
+    20%{ transform:  rotate(-20deg);}
+    25%{ transform: rotate(-25deg);}
+    30%{ transform: rotate(-30deg);}
+    35%{ transform: rotate(-35deg);}
+    40%{ transform: rotate(-40deg);}
+    45%{ transform: rotate(-45deg);}
+    50%{ transform: rotate(0deg);}
+    60%{ transform: rotate(5deg);}
+    65%{ transform:  rotate(10deg);}
+    70%{ transform:  rotate(15deg);}
+    75%{ transform: rotate(20deg)}
+    80%{ transform: rotate(25deg)}
+    85%{ transform: rotate(30deg)}
+    90%{ transform: rotate(35deg)}
+    95%{ transform: rotate(40deg)}
+    100%{ transform: rotate(45deg);}
+    0%{ transform:  rotate(0deg);}
+}
+
+/* adobe font */
+.change{
+    font-size: 100px;
+    font-family: "droog", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.change:hover {
+   color: rgb(233, 48, 48);
+}
+
+/* i tried to do harder action (slide, jump, ect) but it's quite hard for me rn, i'll figure it out over the weekend  */

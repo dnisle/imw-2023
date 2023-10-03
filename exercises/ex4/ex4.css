@@ -184,6 +184,7 @@ h4{
     font-weight: 700;
     padding-left: 12px;
 }
+/* somehow the original px number on figma doesn't look like what it's supposed to look, so i changed the padding px so it would look like the original */
 
 .padding-links{
     padding-bottom: 16px;

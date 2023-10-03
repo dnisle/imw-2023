@@ -44,7 +44,7 @@ a{
 
 .nav-links{
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 /* main */
@@ -87,6 +87,7 @@ main{
 .info-header{
     font-size: 22px;
 }
+/* sub-header 3 on the original is not align with the other 2, so i changed a bit so itd be more aesthetic pleasing */
 
 .info-p{
     font-size: 14px;

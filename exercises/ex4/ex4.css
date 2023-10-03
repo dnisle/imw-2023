@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #F5D5EE;
+    font-family: Helvetica, sans-serif;
+}
+
+/* head */
+header{
+    width: 700px;
+    height: 103px;
+    background: white;
+    border-top: 1px solid black; 
+    border-right: 1px solid black; 
+    border-left: 1px solid black; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* i find that padding-top and bottom is not neccesary to be mentioned in this case */
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    display: inline;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.site-title{
+    font-size: 38px;
+}
+
+.nav-links{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* main */
+main{
+    /* width: 700px;
+    height: 777px; */
+    background: white;
+    border: 1px solid black;
+}
+
+.info-section-columns{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* border: 1px solid black; */
+}
+
+.info-section{
+    height: 319px;
+    /* border-left: 1px solid black; */
+    /* having both left and right border makes a grid looks chunkier than the rest */
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* or padding: 30px 20px for all if same number */
+}
+
+.info-cta{
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: underline;
+    padding-top: 26px;
+}
+
+.info-header{
+    font-size: 22px;
+}
+
+.info-p{
+    font-size: 14px;
+    padding-top: 12px;
+}
+
+.page{
+    width: 700px;
+    /* or put width 100% on every "w 700px" to make the content adapt to the size of browzer */
+    margin: auto
+}
+
+h1{
+    font-size: 72px;
+    font-weight: 600;
+    padding-bottom: 26px;
+}
+
+.cta-b1{
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: underline;
+    padding-top: 26px;
+}
+
+.box-h1{
+    border-bottom: 1px solid black;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-left: 134px;
+    padding-right: 134px;
+    text-align: center;
+}
+
+h2{
+    font-size: 32px;
+    padding-top: 37px;
+    padding-bottom: 37px;
+    padding-left: 20px;
+    padding-right: 153px;
+}
+
+
+/* foot */
+footer{
+    width: 700px;
+    height: 129px;
+    background: white;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    /* padding-top: 31px;
+    padding-bottom: 31px; */
+    display: flex;
+   flex-direction: row;
+}
+
+.footer-columns{
+    justify-content: flex-start;
+    gap: 121px;
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+}
+
+h4{
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 9px;
+}
+
+.last-p{
+    font-size: 10px;
+}
+
+.footer-sec1{
+    padding-top: 31px;
+    padding-left: 20px;
+    /* padding-right: 544px; */
+}
+
+.social{
+    font-size: 14px;
+    font-weight: 600;
+    white-space: nowrap;
+    padding-top: 56px;
+}
+
+.social-padding{
+    padding-left: 25px;
+}
+
+.last-link{
+    padding-top: 13px;
+    font-size: 12px;
+    font-weight: 700;
+    padding-left: 12px;
+}
+
+.padding-links{
+    padding-bottom: 16px;
+}

@@ -1,0 +1,460 @@
+html{
+    width: 1920px;
+    height: 1080px;
+}
+body{
+    background-color: #003F98;
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+}
+
+/* background*/
+header{
+    font-family: "greycliff-cf", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 280px;
+    position: relative;
+    margin: -20px;
+    z-index: -1;
+}
+
+p{
+    animation: color-change 2s infinite; 
+}
+
+@keyframes color-change {
+    0% { color: #0042A0; }
+    50% { color: #00409b; }
+    100% { color: #0042A0;}
+}
+
+.visiting{
+    margin: 0px;
+    position: relative;
+    /* top:0px;
+    left: 0px; */
+}
+
+.designer{
+    position:absolute;
+    margin: 0px;
+    top: 200px;
+    left: 240px;
+}
+
+.lecture{
+    position:absolute;
+    margin: 0px;
+    top: 400px;
+    /* left: 0px; */
+}
+
+.series{
+    position:absolute;
+    margin: 0px;
+    top: 600px;
+    left: 470px;
+}
+
+h1{
+    font-family: "regulator-nova", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: #F9A81B;
+    z-index: 2;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    /* padding-left: 5px;
+    padding-top: 10px; */
+}
+
+.scroll-text {
+    text-align: right;
+    position: absolute;
+    /* animation properties */
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    
+    -moz-animation: my-animation 15s linear infinite;
+    -webkit-animation: my-animation 15s linear infinite;
+    animation: my-animation 15s linear infinite;
+  }
+
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateX(-100%); }
+    to { -webkit-transform: translateX(100%); }
+  }
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+    to {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+  }
+/* souce: https://blog.hubspot.com/website/scrolling-text-css#:~:text=CSS%20Horizontal%20Scrolling%20Text%3A%20Right,and%20output%20are%20shown%20below. */
+
+h2{
+    font-family: "regulator-nova", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13px;
+    color: #FFA5A9;
+    z-index: 10;
+}
+
+.h2-box1{
+    position:  absolute;
+    top: 75px;
+    left: 90px;
+    z-index: 2;
+} 
+
+h3{
+    font-family: "regulator-nova", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    color: #FFC813;
+    position:  absolute;
+    top: 85px;
+    left: 90px;
+    z-index: 2;
+    box-shadow: inset 0 0 0 0 #F7F1B7;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+
+}
+
+h3:hover{
+    box-shadow: inset 310px 0 0 0 #F7F1B7;
+    color: #019652
+}
+/*source: https://css-tricks.com/css-link-hover-effects/ */
+
+h4{
+    font-family: "regulator-nova", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 25px;
+    color: #FFA5A9;
+    position:  absolute;
+    top: 130px;
+    left: 90px;
+    z-index: 2;
+}
+
+p1{
+    font-family: "rockwell-nova", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #F7F1B7;
+    /* width: 571px;
+    height: 257px; */
+}
+
+.animate-character
+{
+  background-image: linear-gradient(
+    -225deg,
+    #e9d200 0%,
+    #fff280 29%,
+    #e9d200 67%,
+    #fff280 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 3s linear infinite;
+  /* display: inline-block; */
+ 
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.box {
+    width: 400px;
+    height: 257px;
+    position:  absolute;
+    top: 85px;
+    left: 430px
+}
+
+.link1{
+    font-family: "regulator-nova", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13px;
+    z-index: 2;
+    color: #F68A28;
+    text-decoration: underline;
+    position: absolute;
+    left: 90px;
+    top: 270px;
+}
+
+/* new way to sort things faster */
+/* box 2 */
+.subhead{
+    font-family: "regulator-nova", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13px;
+    color: #FFA5A9;
+    z-index: 10;
+    width: 250px;
+}
+
+.subhead-placement2{
+    position: relative;
+    top: 50px;
+    left: 1079px;
+    z-index: 2;
+} 
+
+.name{
+    font-family: "regulator-nova", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    color: #FFC813;
+    box-shadow: inset 0 0 0 0 #F7F1B7;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    width: 200px;
+}
+
+.name-placement{
+    position: relative;
+    top: 18px;
+    left: 1072px;
+    z-index: 2;
+}
+
+.name:hover{
+    box-shadow: inset 162px 0 0 0 #F7F1B7;
+    color: #019652
+}
+/* https://css-tricks.com/css-link-hover-effects/ */
+
+.time{
+    font-family: "regulator-nova", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 25px;
+    color: #FFA5A9;
+    width: 250px;
+}
+
+.time-placement{
+    position: relative;
+    top: -18px;
+    left: 1032px;
+    z-index: 2;
+}
+
+.info{
+    font-family: "rockwell-nova", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #F7F1B7;
+    /* width: 571px;
+    height: 257px; */
+}
+
+.info-placement{
+    position: relative;
+    left: 947px;
+    top: -35px;
+    width: 398px;
+    height: 257px;
+    text-align: center;
+}
+
+.link{
+    font-family: "regulator-nova", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13px;
+    z-index: 2;
+    color: #F68A28;
+    text-decoration: underline;
+}
+
+.link-placement{
+    position: relative;
+    top: -80px;
+    left: 1083px;
+    z-index: 2;
+}
+
+.box2-position{
+    position: relative;
+    top: -180px;
+    left: 10px;
+    width: 1000px;
+}
+/* .box#-position is for in case i want to move everything all at once */
+
+/* box3 */
+
+.subhead-placement3{
+    position: relative;
+    top: 50px;
+    left: 1079px;
+    z-index: 2;
+} 
+
+.name-placement3{
+    position: relative;
+    top: 18px;
+    left: 1015px;
+    z-index: 2;
+}
+
+.name3{
+    font-family: "regulator-nova", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    color: #FFC813;
+    box-shadow: inset 0 0 0 0 #F7F1B7;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    width: 280px;
+}
+
+.name3:hover{
+    box-shadow: inset 270px 0 0 0 #F7F1B7;
+    color: #019652
+}
+
+.time-placement3{
+    position: relative;
+    top: -18px;
+    left: 1032px;
+    z-index: 2;
+}
+
+.info-placement3{
+    position: relative;
+    left: 947px;
+    top: -35px;
+    width: 420px;
+    height: 257px;
+    text-align: center;
+}
+
+.link-placement3{
+    position: relative;
+    top: -20px;
+    left: 1083px;
+    z-index: 2;
+}
+
+.box3-position{
+    position: relative;
+    top: -500px;
+    left: -900px;
+}
+
+/* box4 */
+
+.subhead-placement4{
+    position: relative;
+    top: 190px;
+    left: 1360px;
+    z-index: 2;
+} 
+
+.name-placement4{
+    position: relative;
+    top: 160px;
+    left: 1360px;
+    z-index: 2;
+}
+
+.name4{
+    font-family: "regulator-nova", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    color: #FFC813;
+    box-shadow: inset 0 0 0 0 #F7F1B7;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    width: 200px;
+}
+
+.name4:hover{
+    box-shadow: inset 185px 0 0 0 #F7F1B7;
+    color: #019652
+}
+
+.time-placement4{
+    position: relative;
+    top: 125px;
+    left: 1360px;
+    z-index: 2;
+}
+
+.info-placement4{
+    position: relative;
+    left: 770px;
+    top: -35px;
+    width: 530px;
+    height: 257px;
+    text-align: right;
+}
+
+.link-placement4{
+    position: relative;
+    top: -88px;
+    left: 1360px;
+    z-index: 2;
+}
+
+.box4-position{
+    position: relative;
+    top: -900px;
+    left: -100px;
+    width: 1000px;
+}
+
+/* CTA */
+.circle{
+    font-size: 150px;
+    color: #F7F1B7;
+    z-index: 4;
+    position: absolute;
+    top: 350px;
+    left: 660px;
+    opacity: 70%;
+    animation: rotation 3s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

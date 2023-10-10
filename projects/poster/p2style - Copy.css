@@ -1,0 +1,75 @@
+body{
+    background-color: #003F98;
+    position: relative;
+}
+
+/* background*/
+header{
+    font-family: "greycliff-cf", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 280px;
+    position: relative;
+    margin: -20px;
+    z-index: -1;
+}
+
+p{
+    animation: color-change 3s infinite; 
+}
+
+@keyframes color-change {
+    0% { color: #0042A0; }
+    50% { color: #00409B; }
+    100% { color: #0042A0;}
+}
+
+.visiting{
+    margin: 0px;
+    top:0px;
+    left: 0px;
+}
+
+.designer{
+    position:absolute;
+    margin: 0px;
+    top: 200px;
+    left: 240px;
+}
+
+.lecture{
+    position:absolute;
+    margin: 0px;
+    top: 400px;
+    left: 0px;
+}
+
+.series{
+    position:absolute;
+    margin: 0px;
+    top: 600px;
+    left: 470px;
+}
+
+/* h1{
+    font-family: "regulator-nova", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    color: #F9A81B;
+    z-index: 2;
+    
+    top: 0;
+    left: 0;
+    padding-left: 5px;
+    padding-top: 10px;
+} */
+
+.column {
+    column-count: 4;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule-color: lightblue;
+   position: relative;
+  }

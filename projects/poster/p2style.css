@@ -33,8 +33,6 @@ p{
 .visiting{
     margin: 0px;
     position: relative;
-    /* top:0px;
-    left: 0px; */
 }
 
 .designer{
@@ -48,7 +46,6 @@ p{
     position:absolute;
     margin: 0px;
     top: 400px;
-    /* left: 0px; */
 }
 
 .series{
@@ -68,8 +65,6 @@ h1{
     /* position: absolute; */
     top: 0;
     left: 0;
-    /* padding-left: 5px;
-    padding-top: 10px; */
 }
 
 .scroll-text {
@@ -159,8 +154,6 @@ p1{
     font-style: normal;
     font-size: 14px;
     color: #F7F1B7;
-    /* width: 571px;
-    height: 257px; */
 }
 
 .animate-character
@@ -182,7 +175,6 @@ p1{
   -webkit-text-fill-color: transparent;
   animation: textclip 3s linear infinite;
   /* display: inline-block; */
- 
 }
 
 @keyframes textclip {
@@ -438,7 +430,7 @@ p1{
     width: 1000px;
 }
 
-/* CTA */
+/* flower */
 .circle{
     font-size: 150px;
     color: #F7F1B7;

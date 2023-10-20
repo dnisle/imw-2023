@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(229, 200, 255);
+    color:black;
+    font-size:  5em;
+    text-align: center;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.clickme{
+    font-size: 250px;
+}
+
+#dnis{
+    color: rgb(255, 151, 151);
+    cursor: pointer;
+}
+
+#student{
+    color: rgb(255, 189, 113);
+    cursor: pointer;
+}
+
+#advert{
+    transition: color 0.5s;
+}
+
+#square {
+    position:absolute;
+    right: 25%;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 700px;
+    /* background-color: rgb(70, 181, 255); */
+    color: white;
+    font-size: 2em;
+    justify-content: center;
+}

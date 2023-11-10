@@ -1,0 +1,10 @@
+body {
+    text-align: center;
+}
+h1{
+    display:inline-block;
+}
+.dogImg {
+    width:50%;
+    height:auto
+}

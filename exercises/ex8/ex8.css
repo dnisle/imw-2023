@@ -1,11 +1,11 @@
 body {
     text-align: center;
-    background-color: antiquewhite;
+    background-color: rgb(254, 234, 208);
 }
 h1{
     display:inline-block;
 }
 .dogImg {
     width:50%;
-    height:auto
+    height:auto;
 }

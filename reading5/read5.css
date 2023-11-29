@@ -1,0 +1,52 @@
+body {
+    background-color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 20px; /* Add some space between h1 and images */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allows images to wrap */
+}
+
+.image-stack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .image-stack img {
+    width: 10px; /* Adjust the size as needed */
+    height: 10px;
+    margin: 5px; /* Spacing between images */
+}
+
+
+.box {
+    width: 250px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 20px; /* Add some space between images and the WATER box */
+    margin-left: auto; /* Centering the box */
+    margin-right: auto; /* Centering the box */
+}
+
+.img {
+    width: 250px;
+    height: auto;
+}

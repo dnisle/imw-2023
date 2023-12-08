@@ -16,7 +16,7 @@ var rect=[];
 var ripple = [];
 var lilypad = [];
 var lilypadnum = 10;
-var lilypadsize = 100;
+var lilypadsize = 80;
 
 var fishe =[];
 var fishenumero = 30;

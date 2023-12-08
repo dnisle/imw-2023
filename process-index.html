@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+  	<meta name="viewport" content="width=device-width, initial-zoom:1.0">
+  	<meta charset="utf-8">
+    <title>Process Page Template</title>
+       
+  </head>
+  <body>
+    <div class="process-template">
+        <!-- Start of title -->
+        <div class="title">
+            <h1>Denise's Index</h1>
+        </div>
+        <!-- End of title -->
+        <!-- Start of content -->
+        <div class="content">
+            <!-- Start of a section -->
+            <div class="section">
+                <h2>Ideas</h2>
+                <p>
+                    At first, I was thinking about doing an interaction game and the user have to navigate to each sections using their keyboard in a pixel art style. But then my mom sent me a picture of my aunt's pond, back in my home town in Vietnam, called Ca Mau City, where she has a bunch of water plants and koi fishes in there. That's how I came up with this idea, since it's a bit easier and time save than the other one, I decided to go with this one.
+                </p>
+             
+                <h2>Options</h2>
+                <p>
+                    I came up with 3 options: a mini pond with floating lilypads and fishes; a half screen pond with floating lilypads and fished; and lastly lilypads that contain contents and floating around. All 3 supposed to have raining question mark and floating lilypads as a part of animation, and fished as interactive since the'd run a way when user tap them. 
+                </p>
+
+                <figure>
+                  <img src="index/Screenshot 2023-12-08 123130.png" alt="Options" width="100%">
+                  <figcaption>Options</figcaption>
+                </figure>
+                
+                <p>
+                    But after taking Peter's feedbacks into consideration, I decided to get rid of the questionmarks raining since it takes up to much page with little to no purpose, and went with full screen pond.
+                </p>
+
+            </div>
+            <!-- End of a section -->
+            <!-- Start of a new section -->
+            <div class="section">
+                <h2>Coded canvas</h2>
+                <p>
+                    Using html 5 canvas 5 I'm planning to make my interaction here. I choose this over p5 because I'm abit more familiar with this thanks to some classes in the pasrt
+                </p>
+
+                <p>
+                    Initially, to create the ripple effect, I created on the position of mouseclicked a circle that increase it sizes. I then made it 3 different circles to make this effect better. Finally i deleted the circles when it goes out of view, to ensure the canvas does not lag.
+                </p>
+                <!-- Start of a section -->
+                <!-- Start of image with caption -->
+                <figure>
+                  <img src="index/circles.png" alt="This text should describe the image" width="100%">
+                  <figcaption>Tripple circles effect</figcaption>
+                </figure>
+
+                <p>
+                    I then created some new lilypads, I altered them a bit to make them look less like padman. I found some collision detection code on stack overflow for canvas and implement on my lilypads, making sure they bounce off eachother and the border (tho some of them are still buggy)
+                </p>
+
+                <figure>
+                    <img src="index/lilypad.png" alt="This text should describe the image" width="100%">
+                    <figcaption>Lilypad shape</figcaption>
+                  </figure>
+
+                <p>
+                    finally, i implemented small red dots as fishes, having them move to a random area in the canvas every few seconds. I made it so that when i clicked nera the fishes, this code would trigger also, making as if theyre running away from my tap.
+                </p>
+
+                <figure>
+                    <img src="index/fishes.png" alt="This text should describe the image" width="100%">
+                    <figcaption>Lefishe</figcaption>
+                  </figure>
+
+                <p>
+                    And with the canvas is now out of the way (which took majority of my brain power before deciding), i just needed to resize and reposition the canvas to fit my website.
+                </p>
+                <!-- End of image with caption -->
+            </div>
+            <!-- End of a new section -->
+        </div>
+        <!-- End of content -->
+    </div>
+  </body>
+</html>

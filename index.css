@@ -1,0 +1,124 @@
+body{
+    /* background-color: #84d8f0; */
+    background-color: antiquewhite;
+    overflow: hidden;
+}
+
+.logo{
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 15%;
+    height: auto;
+    z-index: 2;
+}
+
+#myCanvas {
+    right: 0px;
+    padding: 0;
+    position: absolute;
+    display: block;
+    top: 150px;
+    text-align: center;
+    z-index: -1;
+}
+
+header {
+    display: block;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Set the width to 100% */
+    background-color: #84d8f0;
+    text-align: center;
+}
+
+nav {
+    font-family: 'Bespoke-g2dwAZ1x73';
+    text-align: center;
+    margin-left: 100px; /* Adjust the margin to shift it towards the right */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 50px;
+}
+
+nav a {
+    font-size: 45px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    line-height: 150px; /* Adjust the line-height value to shift the text down */
+}
+
+nav a:hover{
+    background-color: #FFA500;
+}
+
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content.exercise {
+    max-height: 80vh; /* Set a maximum height for the dropdown menu */
+    overflow-y: auto; /* Enable vertical scrollbar if needed */
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFA500;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    opacity: 0; /* Set initial opacity to 0 */
+    transition: opacity 2s ease; /* Add transition for opacity */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    opacity: 1; /* Set opacity to 1 on hover */
+}
+
+
+.dropdown-content a {
+    font-size: 15px; /* Adjust font size */
+    font-family: 'Bespoke-YuzHjrPSA-';
+    line-height: 100px; /* Adjust line height */
+    color: white;
+    padding: 0 50px;
+    display: block;
+}
+
+
+.dropdown-content a:hover {
+    background-color: coral;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@font-face {
+        font-family: 'Bespoke-YuzHjrPSA-';
+        src: url('fonts/Bespoke-YuzHjrPSA-.eot');
+        src: url('fonts/Bespoke-YuzHjrPSA-.eot?#iefix') format('embedded-opentype'),
+           url('fonts/Bespoke-YuzHjrPSA-.woff') format('woff'),
+           url('fonts/Bespoke-YuzHjrPSA-.ttf') format('truetype'),
+           url('fonts/Bespoke-YuzHjrPSA-.svg#Bespoke-YuzHjrPSA-') format('svg');
+      }
+@font-face {
+        font-family: 'Bespoke-g2dwAZ1x73';
+        src: url('fonts/Bespoke-g2dwAZ1x73.eot');
+        src: url('fonts/Bespoke-g2dwAZ1x73.eot?#iefix') format('embedded-opentype'),
+           url('fonts/Bespoke-g2dwAZ1x73.woff') format('woff'),
+           url('fonts/Bespoke-g2dwAZ1x73.ttf') format('truetype'),
+           url('fonts/Bespoke-g2dwAZ1x73.svg#Bespoke-g2dwAZ1x73') format('svg');
+      }
